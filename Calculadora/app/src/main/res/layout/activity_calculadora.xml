@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp">
+
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Numero uno"
+        android:inputType="number"
+        />
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Numero 2"
+        android:inputType="number"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <Button
+            android:id="@+id/btnsumar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sum"
+            />
+
+        <Button
+            android:id="@+id/btnrestar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="res"
+            />
+        <Button
+            android:id="@+id/btnmultiplicar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="mul"
+            />
+        <Button
+            android:id="@+id/btndividir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="div"
+            />
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="90sp"
+        android:text="00"
+        android:gravity="center"
+
+        />
+
+
+</LinearLayout>
